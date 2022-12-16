@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
 app.get("/", (_req: Request, res: Response) => {
-  res.send("Trunk Notes API - Index");
+  res.send("Index");
 });
 
 app.listen(port, () => {
